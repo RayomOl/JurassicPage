@@ -6,8 +6,8 @@ body
 {
     background-color: #353535;
     color: white;
-    font-size: 15px; 
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 50px;
 }
 div
@@ -97,4 +97,12 @@ p
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 45px;
     color: #F7DC11;
+}
+.loginbox
+{
+    border-radius: 10px;
+    background-color: #2D9CCE;
+    margin: auto auto auto auto;
+    padding: 50px 5px 5px 5px;
+    width: 25%;
 }
