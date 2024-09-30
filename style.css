@@ -8,7 +8,8 @@ body
     color: white;
     font-size: 20px; 
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 50px;
+    margin: 10%;
+    margin-top: 8%;
 }
 div
 {
@@ -20,6 +21,10 @@ table
     text-align: center;
     border-style: solid;
     width: 100%;
+}
+select
+{
+    text-align: center;
 }
 th
 {
@@ -33,16 +38,32 @@ td
     border-style: solid;
     padding: 5px;
 }
+a:hover
+{
+    color: #F7DC11;
+}
 a
 {
     color:  #2D9CCE; 
     text-decoration: none;
     padding: 5px;
 }
+article
+{
+    margin-top: 50px;
+    margin-right: 25%;
+}
 p
 {
     font-family: sans-serif;
-    margin-right: 25%;
+    margin-right: 5%;
+}
+fieldset
+{
+    margin: 25px;
+    border-radius: 5px;
+    border: solid #696969 5px;
+    background-color: #353535;
 }
 .title
 {
@@ -53,13 +74,14 @@ p
 .logo
 {  
     text-align: center;
-    margin-bottom: 100px;
-    margin-top: 100px;
+    margin-bottom: 0px;
+    margin-top: 75px;
     background-image: url("fundo.jpg");
     background-size: auto;
     background-position: 100%;
     background-position-y: -50%;
-    border-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px
 }
 .poster
 {
@@ -75,7 +97,7 @@ p
     font-size: 25px;
     margin-top: 0px;
     margin-bottom: -20 px;
-    color: #B50D13;
+    color: #d3161c;
 }
 .choss
 {
@@ -84,13 +106,14 @@ p
 .form
 {
     color: #F7DC11;
-    margin-top: -80px;
+    margin-top: -50px;
     text-decoration: none;
-    float: right;
+    right: 10%;
     border-radius: 50px;
     border: solid 2.5px #2D9CCE;
     width: fit-content;
     background-color: #2D9CCE50;
+    position:absolute
 }
 .announce
 {
@@ -101,7 +124,7 @@ p
 .loginbox
 {
     border-radius: 10px;
-    background-color: #2D9CCE;
+    background-color: #524d4d;
     margin: auto auto auto auto;
     padding: 50px 5px 5px 5px;
     width: 25%;

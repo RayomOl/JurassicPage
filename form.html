@@ -5,22 +5,37 @@
         <title>Login Back to The Future WebSite</title>
     </head>
     <body class="choss">
-        <div>
-            Insira seus dados de Login
+        <div style="position: absolute; left: 2.5%; margin-top: -1%;">
+            <a href="index.html">
+                <img src="logo.png" height=100px draggable="false">
+            </a>
+        </div>
+        <div style="font-size: 30px">
+            INFORMAÇÕES
         </div>
         <div class="loginbox">
+            <div style="font-size: 30px;">
+                Usuário
+            </div>
             <div>
                 <img src="login.jpg" height="200" width="200" style="border-radius: 50%; border: 5px solid #F7DC11;">
             </div>
             <div>
                 <form>
-                    <label for="email">Email</label>
-                    <br>
-                    <input type="email" required>
-                    <br>
-                    <label for="password">Password</label>
-                    <br>
-                    <input type="password" required>
+                    <fieldset>
+                        <legend style="text-align: left; color: #757575;">INFO</legend>
+                        <label for="email">Email</label>
+                        <br>
+                        <input type="email" required>
+                        <br>
+                        <label for="password">Password</label>
+                        <br>
+                        <input type="password" required>
+                    </fieldset>
+            </div>
+            <div>
+                <label for="idade">Nascimento</label>
+                <input type="date" name="Data" id="date">
             </div>
             <div>
                 <input type="submit" value="Entrar">
